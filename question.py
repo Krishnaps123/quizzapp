@@ -10,7 +10,7 @@ questions = [
         "question": "What is the capital of France?",
         "options": ["Berlin", "Madrid", "Paris", "Rome"],
         "answer": "Paris",
-        "image": None,,
+        "image": None,
         "audio": None,
     },
     {
@@ -182,4 +182,5 @@ else:
         if st.button("Restart Quiz"):
             for key in list(st.session_state.keys()):
                 del st.session_state[key]
+
 
