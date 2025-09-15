@@ -32,7 +32,7 @@ questions = [
         "question": "Which is the largest mammal?",
         "options": ["Elephant", "Giraffe", "Blue Whale", "Hippopotamus"],
         "answer": "Blue Whale",
-        "image": None,,
+        "image": None,
         "audio": None,
     }
 ]
@@ -182,6 +182,7 @@ else:
         if st.button("Restart Quiz"):
             for key in list(st.session_state.keys()):
                 del st.session_state[key]
+
 
 
 
