@@ -10,7 +10,7 @@ questions = [
         "question": "What is the capital of France?",
         "options": ["Berlin", "Madrid", "Paris", "Rome"],
         "answer": "Paris",
-        "image": "assets/pariz.jpg",
+        "image": None,,
         "audio": None,
     },
     {
@@ -32,7 +32,7 @@ questions = [
         "question": "Which is the largest mammal?",
         "options": ["Elephant", "Giraffe", "Blue Whale", "Hippopotamus"],
         "answer": "Blue Whale",
-        "image": "assets/bluewhale.jpg",
+        "image": None,,
         "audio": None,
     }
 ]
@@ -182,3 +182,4 @@ else:
         if st.button("Restart Quiz"):
             for key in list(st.session_state.keys()):
                 del st.session_state[key]
+
